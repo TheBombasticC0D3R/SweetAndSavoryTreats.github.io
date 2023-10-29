@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sweet And Savory Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffaa00;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #fff;
+        }
+
+        .menu {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 18px;
+            color: #555;
+            margin: 10px 0;
+        }
+        .contact {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .contact h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .contact p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .contact .phone {
+            font-size: 24px;
+            color: #ffaa00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sweet And Savory Menu</h1>
+    </header>
+    <div class="menu">
+        <h2>Mix Our Mini Donuts!</h2>
+        <ul>
+            <li>Oreo Toppings</li>
+            <li>Chocolate Sauce</li>
+            <li>Strawberry Sauce</li>
+            <li>Ube Sauce</li>
+            <li>Sprinkles</li>
+            <li>Sliced Almonds</li>
+            <li>Candy Sprinkles</li>
+            <li>Chocolate Chip Toppings</li>
+            <li>Pretzel Delight</li>
+        </ul>
+    </div>
+    <div class="contact">
+        <h2>Hungry?</h2>
+        <p>Order your favorite mix now!</p>
+        <p class="phone">Call us at: <a href="tel:+09396016501">09396016501</a></p>
+        <h2>Want to Pre-order?</h2>
+        <a href="sweetandsavory4.html">Go to Pre-ordering</a>
+    </div>
+    <h6>This website is by John Mel C. Calderon, owned by Sweet And Savory Treats. Made in Visual Studio Code.</h6>
+    <script>
+        // Encrypted data, for Developer Tools users, please do not edit this.
+        // If edited, your user data might not be collected and confirmed by the Sweet And Savory Treats web developer team.
+        // Code by John Mel.
+        // A l L a 2 8 9 and 0 are the confirmation digits. Do not edit.
+        
+        function generateRandomString(length) {
+            const characters = 'AlLa0289O';
+            let result = '';
+            for (let i = 0; i < length; i++) {
+                const randomIndex = Math.floor(Math.random() * characters.length);
+                result += characters.charAt(randomIndex);
+            }
+            return result;
+        }
+        const encryptedData = generateRandomString(10);
+
+        console.log("Encrypted User Data for Confirmation: " + encryptedData);
+        
+    </script>
+</body>
+</html>
